@@ -1,19 +1,18 @@
 {
-  "name": "refactoring",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^27.5.1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+    "name": "refactoring",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "jest --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/jest": "^28.1.4",
+        "jest": "^28.1.2",
+        "lodash": "^4.17.21"
+    }
 }
