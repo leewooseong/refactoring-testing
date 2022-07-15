@@ -1,4 +1,4 @@
 export function isDeliveryFree(anOrder) {
-  let basePrice = anOrder.basePrice;
-  return basePrice > 1000;
+    // basePrice가 중복으로 선언됨 -> 제거
+    return anOrder.basePrice > 1000;
 }
